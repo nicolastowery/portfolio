@@ -1,0 +1,13 @@
+.animationContainer {
+  min-width: 201px;
+  display: flex;
+}
+
+.animation {
+  letter-spacing: 1px;
+}
+
+.currentSkill {
+  font-style: italic;
+  font-weight: 700;
+}
