@@ -1,0 +1,49 @@
+.skill {
+  background-color: green;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0 0.3em;
+  min-width: 5em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  font-weight: 400;
+}
+
+.skillsContainer {
+  max-width: 350px;
+}
+
+.skillContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.language {
+  background: rgba(167, 6, 14, 15%);
+  color: #a7060e;
+}
+
+.library {
+  background: rgb(4, 84, 204, 15%);
+  color: #0454cc;
+}
+
+.database {
+  background: rgb(64, 29, 221, 15%);
+  color: #401ddd;
+}
+
+.other {
+  background: rgb(5, 116, 29, 15%);
+  color: #05741d;
+}
+
+.ecommerce-cms {
+  background: rgba(177, 8, 112, 15%);
+  color: #b10870;
+}

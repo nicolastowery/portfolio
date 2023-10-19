@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import resume from "../assets/documents/resume.pdf";
+import styles from "./Nav.module.css";
+import resume from "../../assets/documents/resume.pdf";
 function Nav() {
   return (
     <nav>

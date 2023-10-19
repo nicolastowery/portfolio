@@ -1,0 +1,29 @@
+.about {
+  max-width: 70vw;
+}
+
+.introudction {
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: end;
+}
+.image {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 999px;
+  margin-bottom: -75px;
+}
+
+.skills-education {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+@media (max-width: 1875px) {
+  .skills-education {
+    padding: 0;
+  }
+}
