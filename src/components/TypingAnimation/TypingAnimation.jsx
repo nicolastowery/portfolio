@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import skills from "../../data/skills";
 import styles from "./TypingAnimation.module.css";
+const shuffledSkills = skills.sort((a, b) => 0.5 - Math.random());
 
 function TypingAnimation() {
   const [currentSkill, setCurrentSkill] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-
   useEffect(() => {
     const typeSkill = (skill) => {
       const speed = 100; // Typing speed in milliseconds
@@ -22,7 +22,7 @@ function TypingAnimation() {
       }, speed);
     };
     const eraseSkill = () => {
-      const skill = skills[currentIndex].skill;
+      const skill = shuffledSkills[currentIndex].skill;
       const speed = 50; // Erasing speed in milliseconds
 
       let charIndex = skill.length; // Current character (starts at the end of the string)
@@ -41,8 +41,8 @@ function TypingAnimation() {
       }, speed);
     };
     const typeTimeout = setTimeout(
-      () => typeSkill(skills[currentIndex].skill),
-      2000
+      () => typeSkill(shuffledSkills[currentIndex].skill),
+      2500
     );
     return () => {
       clearTimeout(typeTimeout);

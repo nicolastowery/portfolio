@@ -1,6 +1,21 @@
+@keyframes bottom-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(0, 1rem, 0);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .animationContainer {
   min-width: 201px;
   display: flex;
+  animation: bottom-fade-blur 3s ease-out 0.7s backwards;
+  margin-top: -12px;
 }
 
 .animation {

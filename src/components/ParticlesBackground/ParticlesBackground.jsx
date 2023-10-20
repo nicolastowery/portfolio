@@ -25,7 +25,7 @@ const ParticlesBackground = () => {
         interactivity: {
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
             onHover: {
@@ -39,7 +39,7 @@ const ParticlesBackground = () => {
               quantity: 4,
             },
             repulse: {
-              distance: 200,
+              distance: 150, // 200 default
               duration: 0.4,
             },
           },
@@ -52,7 +52,7 @@ const ParticlesBackground = () => {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.6,
             width: 1,
           },
           move: {
@@ -62,24 +62,24 @@ const ParticlesBackground = () => {
               default: "bounce",
             },
             random: false,
-            speed: 3,
+            speed: 1.8,
             straight: false,
           },
           number: {
             density: {
               enable: true,
-              area: 700,
+              area: 800,
             },
             value: 80,
           },
           opacity: {
-            value: 0.5,
+            value: 0.1,
           },
           shape: {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,

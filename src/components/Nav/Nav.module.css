@@ -1,10 +1,28 @@
-ul {
+@keyframes fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.links {
   display: flex;
-  column-gap: 5rem;
-  justify-content: end;
 }
 
 nav {
-  border-bottom: 0.2rem solid black;
-  padding-right: 3rem;
+  user-select: none;
+}
+
+.linkContainer a {
+  animation: fade-blur 2s ease-out;
+  padding: 0 4rem;
+}
+
+.linkContainer a:hover {
+  color: #000;
+  background-color: rgb(252, 251, 244);
 }

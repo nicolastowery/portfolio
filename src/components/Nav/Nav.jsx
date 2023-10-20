@@ -1,20 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "./Nav.module.css";
 import resume from "../../assets/documents/resume.pdf";
 function Nav() {
   return (
     <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
+      <ul className={styles.links}>
+        <li className={styles.linkContainer}>
+          <NavLink to="/">Home</NavLink>
         </li>
-        <li>
+        <li className={styles.linkContainer}>
           <Link to="/about">About</Link>
         </li>
-        <li>
+        <li className={styles.linkContainer}>
           <Link to="/projects">Projects</Link>
         </li>
-        <li>
+        <li className={styles.linkContainer}>
           <a
             href={resume}
             rel="noreferrer"

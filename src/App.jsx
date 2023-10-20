@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About/About";
 import "./index.css";
 import ParticlesBackground from "./components/ParticlesBackground/ParticlesBackground";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

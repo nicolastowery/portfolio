@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 import me from "../../assets/images/me.jpg";
 function About() {
   return (
-    <section className={styles.about}>
+    <main className={styles.about}>
       <heading className={styles.imageContainer}>
         <img
           alt="Nicolas Towery"
@@ -34,7 +34,7 @@ function About() {
         <Skills />
         <Education />
       </div>
-    </section>
+    </main>
   );
 }
 

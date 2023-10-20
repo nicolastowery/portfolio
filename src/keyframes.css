@@ -1,0 +1,23 @@
+@keyframes cross-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(0, 3rem, 0) rotate3d(0.25, -1, 0, 66.6deg);
+  }
+  20%,
+  60% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}

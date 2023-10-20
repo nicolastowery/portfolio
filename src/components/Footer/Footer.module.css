@@ -1,0 +1,60 @@
+@keyframes fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem; /* Footer height */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  user-select: none;
+  opacity: 0.6;
+  animation: fade-blur 1.7s ease-out; /* slightly faster than nav. nav is 2s*/
+}
+.empty,
+.links,
+.attribution {
+  flex: 1;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 20px;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  opacity: 0.6;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link:hover {
+  opacity: 1;
+}
+.attribution {
+  opacity: 0.6;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: end;
+}
