@@ -11,6 +11,7 @@
 
 .links {
   display: flex;
+  transition: all ease-out;
 }
 
 nav {
@@ -25,4 +26,14 @@ nav {
 .linkContainer a:hover {
   color: #000;
   background-color: rgb(252, 251, 244);
+}
+
+@media (max-width: 800px) {
+  .linkContainer a {
+    padding: 0 2rem;
+  }
+
+  .links {
+    justify-content: center;
+  }
 }

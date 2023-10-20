@@ -31,15 +31,30 @@
   justify-content: center;
   user-select: none;
   row-gap: 1rem;
+  max-width: 100dvw;
+  padding: 7em 0;
 }
 
 .name {
   letter-spacing: 40px;
   animation: left-fade-blur 3s ease-out 0.1s backwards;
+  width: 100%;
 }
 
 .title {
   letter-spacing: 2px;
   text-transform: uppercase;
   animation: right-fade-blur 3s ease-out 0.4s backwards;
+}
+
+@media (max-width: 1150px) {
+  .name {
+    letter-spacing: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .name {
+    letter-spacing: 15px;
+  }
 }
