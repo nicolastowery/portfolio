@@ -14,7 +14,7 @@ function About() {
         />
       </heading>
       <div className={styles.introduction}>
-        <h1>Introduction</h1>
+        <h1 className={styles.introductionHeader}>Introduction</h1>
         <div className={styles.paragraphs}>
           <p>
             Hello, my name is Nicolas Towery! I am a front end engineer

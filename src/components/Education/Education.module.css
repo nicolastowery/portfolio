@@ -1,5 +1,22 @@
+@keyframes bottom-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(0, 1rem, 0);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .schoolContainer {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
+}
+
+.educationHeading {
+  animation: bottom-fade-blur 3s ease-out 0.7s backwards;
 }

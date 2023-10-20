@@ -3,7 +3,7 @@ import styles from "./Skills.module.css";
 function Skills() {
   return (
     <div className={styles.skillsContainer}>
-      <h1>Skills</h1>
+      <h1 className={styles.skillHeading}>Skills</h1>
       <div className={styles.skillContainer}>
         {skills.map((skill) => (
           <div

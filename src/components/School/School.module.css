@@ -1,3 +1,16 @@
+@keyframes bottom-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(0, 1rem, 0);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .schoolContainer {
   /* background-color: #f1efee; */
   /* color: #000; */
@@ -16,11 +29,13 @@
   text-transform: none;
   font-size: 1.1rem;
   font-weight: 500;
+  animation: bottom-fade-blur 3s ease-out 0.7s backwards;
 }
 
 .degreeItems {
   list-style: disc;
   padding-left: 1.7rem;
+  animation: bottom-fade-blur 3s ease-out 0.7s backwards;
 }
 
 /* .school {

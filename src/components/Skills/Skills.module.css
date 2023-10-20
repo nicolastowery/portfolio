@@ -1,3 +1,15 @@
+@keyframes bottom-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(0, 1rem, 0);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+}
 .skill {
   background-color: green;
   border-radius: 8px;
@@ -23,6 +35,11 @@
   gap: 3px;
   backdrop-filter: blur(5px);
   padding: 20px;
+  animation: bottom-fade-blur 3s ease-out 0.7s backwards;
+}
+
+.skillHeading {
+  animation: bottom-fade-blur 3s ease-out 0.7s backwards;
 }
 
 .language {

@@ -1,13 +1,52 @@
+@keyframes left-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(-1rem, 0, 0);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes right-fade-blur {
+  0% {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translate3d(1rem, 0, 0);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .about {
   margin-top: -60px;
 }
 
-.introudction {
+.introductionHeader {
+  animation: left-fade-blur 3s ease-out 0.1s backwards; /* for some reason it doesn't like it when you apply this property to the parent element*/
+}
+.paragraphs {
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  animation: left-fade-blur 3s ease-out 0.1s backwards;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  line-height: 1.7rem;
+}
+
+.paragraphs p {
 }
 
 .imageContainer {
   display: flex;
   justify-content: end;
+  animation: right-fade-blur 3s ease-out 0.4s backwards;
 }
 .image {
   height: 18rem;
@@ -20,11 +59,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
-}
-
-.paragraphs {
-  backdrop-filter: blur(5px);
-  padding: 20px;
+  /* animation: bottom-fade-blur 3s ease-out 0.7s backwards; doesn't work properly*/
 }
 
 @media (max-width: 1875px) {

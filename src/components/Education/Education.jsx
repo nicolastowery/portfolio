@@ -3,7 +3,7 @@ import styles from "./Education.module.css";
 function Education() {
   return (
     <div className={styles.educationContainer}>
-      <h1>Eductation</h1>
+      <h1 className={styles.educationHeading}>Eductation</h1>
       <div className={styles.schoolContainer}>
         <School
           school="Hopkinsville Community College"
