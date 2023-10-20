@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import skills from "../../data/skills";
 import styles from "./TypingAnimation.module.css";
-const shuffledSkills = skills.sort((a, b) => 0.5 - Math.random());
+const shuffledSkills = skills.slice().sort((a, b) => 0.5 - Math.random());
 
 function TypingAnimation() {
   const [currentSkill, setCurrentSkill] = useState("");
