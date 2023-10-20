@@ -21,29 +21,31 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 3px;
+  backdrop-filter: blur(5px);
+  padding: 20px;
 }
 
 .language {
-  background: rgba(167, 6, 14, 15%);
+  background: #ffd6db;
   color: #a7060e;
 }
 
 .library {
-  background: rgb(4, 84, 204, 15%);
+  background: #a8e2ff;
   color: #0454cc;
 }
 
 .database {
-  background: rgb(64, 29, 221, 15%);
+  background: #cbbefa;
   color: #401ddd;
 }
 
 .other {
-  background: rgb(5, 116, 29, 15%);
+  background: #ccf3c9;
   color: #05741d;
 }
 
 .ecommerce-cms {
-  background: rgba(177, 8, 112, 15%);
+  background: #fdd1f6;
   color: #b10870;
 }

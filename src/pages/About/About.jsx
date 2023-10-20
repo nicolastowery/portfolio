@@ -15,20 +15,22 @@ function About() {
       </heading>
       <div className={styles.introduction}>
         <h1>Introduction</h1>
-        <p>
-          Hello, my name is Nicolas Towery! I am a front end engineer
-          specializing in React.js in the Nashville TN area.
-        </p>
-        <p>
-          Right now I am working at Bestway Ag as a Web Specialist. I get the
-          opportunity to work with the latest eCommerce platforms as well as
-          building websites from the ground up.
-        </p>
-        <p>
-          I have a strong desire to learn more programming lanugages and
-          concepts. When I'm not learning or writing code, I enjoy playing
-          guitar!
-        </p>
+        <div className={styles.paragraphs}>
+          <p>
+            Hello, my name is Nicolas Towery! I am a front end engineer
+            specializing in React.js in the Nashville TN area.
+          </p>
+          <p>
+            Right now I am working at Bestway Ag as a Web Specialist. I get the
+            opportunity to work with the latest eCommerce platforms as well as
+            building websites from the ground up.
+          </p>
+          <p>
+            I have a strong desire to learn more programming lanugages and
+            concepts. When I'm not learning or writing code, I enjoy playing
+            guitar!
+          </p>
+        </div>
       </div>
       <div className={styles["skills-education"]}>
         <Skills />

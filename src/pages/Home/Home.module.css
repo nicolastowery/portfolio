@@ -38,7 +38,7 @@
 .name {
   letter-spacing: 40px;
   animation: left-fade-blur 3s ease-out 0.1s backwards;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .title {

@@ -14,13 +14,13 @@ const ParticlesBackground = () => {
       options={{
         fullScreen: {
           enable: true,
-          zIndex: -1,
+          zIndex: 0,
         },
-        background: {
-          color: {
-            value: "#000",
-          },
-        },
+        // background: {
+        //   color: {
+        //     value: "#000",
+        //   },
+        // },
         fpsLimit: 120,
         interactivity: {
           events: {

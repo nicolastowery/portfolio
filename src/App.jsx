@@ -8,17 +8,19 @@ import ParticlesBackground from "./components/ParticlesBackground/ParticlesBackg
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
-    <div className="App">
+    <div className="appContainer">
       <ParticlesBackground />
-      <Router>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <div className="app">
+        <Router>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
     </div>
   );
 }

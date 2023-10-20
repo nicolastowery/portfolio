@@ -1,4 +1,5 @@
 .about {
+  margin-top: -60px;
 }
 
 .introudction {
@@ -19,6 +20,11 @@
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
+}
+
+.paragraphs {
+  backdrop-filter: blur(5px);
+  padding: 20px;
 }
 
 @media (max-width: 1875px) {
