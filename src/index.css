@@ -76,7 +76,7 @@ main {
   /* justify-content: center; */
   /* align-items: center; */
   padding-bottom: 40px; /* Footer height */
-  padding: 7em;
+  /* padding: 7em; work on this */ 
   padding-top: 5em;
   margin: 0 auto;
   flex: 1;
