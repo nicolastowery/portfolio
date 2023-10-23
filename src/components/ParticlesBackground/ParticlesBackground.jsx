@@ -40,7 +40,13 @@ const ParticlesBackground = () => {
             },
             repulse: {
               distance: 100, // 200 default
-              duration: 0.1,
+              duration: 0.4, // 0.4 default
+              speed: 0.5,
+              maxSpeed: 0.8,
+            },
+            bounce: {
+              distance: 200, // 200 default
+              duration: 0.4, // 0.4 default
             },
           },
         },
@@ -60,17 +66,19 @@ const ParticlesBackground = () => {
             enable: true,
             outModes: {
               default: "bounce",
+              onHover: "stop",
             },
+            maxSpeed: 0.5,
             random: false,
-            speed: 1.8,
+            speed: 0.5, // 1.8
             straight: false,
           },
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 800, // 800
             },
-            value: 80,
+            value: 80, // 80
           },
           opacity: {
             value: 0.1,
