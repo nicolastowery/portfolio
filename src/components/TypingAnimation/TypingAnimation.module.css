@@ -20,9 +20,16 @@
 
 .animation {
   letter-spacing: 1px;
+  font-size: 16px;
 }
 
 .currentSkill {
   font-style: italic;
   font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .animation {
+    font-size: 13px;
+  }
 }

@@ -11,8 +11,7 @@
   }
 }
 .skill {
-  background-color: green;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 14px;
   padding: 0 0.3em;
   min-width: 5em;
@@ -37,6 +36,12 @@
   padding: 20px;
   animation: bottom-fade-blur 3s ease-out 0.7s backwards;
 }
+
+/* .skillContainerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 .skillHeading {
   animation: bottom-fade-blur 3s ease-out 0.7s backwards;
@@ -65,4 +70,24 @@
 .ecommerce-cms {
   background: #fdd1f6;
   color: #b10870;
+}
+
+@media (max-width: 910px) {
+  .skillsContainer {
+    max-width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .skillsContainer {
+    max-width: 100%;
+  }
+
+  .skill {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
+  .skill {
+    font-size: 11px;
+  }
 }

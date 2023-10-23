@@ -73,3 +73,8 @@
     flex: 0;
   }
 }
+@media (max-width: 460px) {
+  .attribution {
+    font-size: 7.5px;
+  }
+}

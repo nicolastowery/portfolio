@@ -23,10 +23,6 @@
   }
 }
 
-.about {
-  margin-top: -60px;
-}
-
 .introductionHeader {
   animation: left-fade-blur 3s ease-out 0.1s backwards; /* for some reason it doesn't like it when you apply this property to the parent element*/
 }
@@ -36,11 +32,8 @@
   animation: left-fade-blur 3s ease-out 0.1s backwards;
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 5px;
   line-height: 1.7rem;
-}
-
-.paragraphs p {
 }
 
 .imageContainer {
@@ -49,21 +42,63 @@
   animation: right-fade-blur 3s ease-out 0.4s backwards;
 }
 .image {
-  height: 18rem;
-  width: 18rem;
+  height: 17rem;
+  width: 17rem;
   border-radius: 999px;
-  margin-bottom: -75px;
+  margin-bottom: -68px;
 }
 
 .skills-education {
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
+  column-gap: 50px;
   /* animation: bottom-fade-blur 3s ease-out 0.7s backwards; doesn't work properly*/
 }
 
+@media (max-height: 1920px) {
+  .about {
+    margin-top: -60px;
+  }
+}
 @media (max-width: 1875px) {
   .skills-education {
     padding: 0;
+  }
+}
+
+@media (max-width: 910px) {
+  .skills-education {
+    flex-direction: column;
+  }
+
+  .about {
+    max-width: 90vw;
+    padding: 5em 0 40px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .about {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+
+  .image {
+    margin: 0;
+    height: 16em;
+    width: 16em;
+  }
+
+  .imageContainer {
+    justify-content: center;
+  }
+
+  .about {
+    padding-top: 5em;
+  }
+
+  .paragraphs {
+    font-size: 14px;
   }
 }

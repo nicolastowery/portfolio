@@ -24,7 +24,7 @@
 }
 
 .homeContainer {
-  height: 70dvh;
+  height: 80dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +38,7 @@
 .name {
   letter-spacing: 40px;
   animation: left-fade-blur 3s ease-out 0.1s backwards;
+  font-size: 3rem;
   /* width: 100%; */
 }
 
@@ -56,5 +57,32 @@
 @media (max-width: 800px) {
   .name {
     letter-spacing: 15px;
+  }
+}
+@media (max-width: 650px) {
+  .name {
+    font-size: 38px;
+  }
+}
+@media (max-width: 500px) {
+  .name {
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .name {
+    font-size: 32px;
+    letter-spacing: 8px;
+  }
+}
+@media (max-width: 350px) {
+  .name {
+    font-size: 30px;
+    letter-spacing: 7px;
   }
 }

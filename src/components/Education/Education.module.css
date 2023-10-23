@@ -14,9 +14,20 @@
 .schoolContainer {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
+  gap: 10px;
 }
 
 .educationHeading {
   animation: bottom-fade-blur 3s ease-out 0.7s backwards;
+}
+
+@media (max-width: 910px) {
+  .schoolContainer {
+    flex-direction: row;
+  }
+}
+@media (max-width: 650px) {
+  .schoolContainer {
+    flex-direction: column;
+  }
 }
