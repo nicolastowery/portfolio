@@ -53,3 +53,46 @@
   line-height: 1.2;
   text-transform: none;
 }
+
+@media (max-width: 650px) {
+  .background {
+    width: 200px;
+    height: 200px;
+  }
+
+  .overlay {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    line-height: 1.1;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .background {
+    width: 150px;
+    height: 150px;
+  }
+
+  .overlay {
+    width: 150px;
+    height: 150px;
+  }
+
+  .title {
+    line-height: 1.1;
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+    margin-top: 3px;
+  }
+
+  .link {
+    font-size: 22px;
+  }
+}

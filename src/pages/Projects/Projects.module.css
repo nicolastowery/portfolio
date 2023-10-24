@@ -10,6 +10,11 @@
 }
 
 .pageContainer {
-  backdrop-filter: blur(5px);
   display: block;
+}
+
+@media (max-width: 650px) {
+  .projectsContainer {
+    gap: 1rem;
+  }
 }
