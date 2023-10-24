@@ -1,0 +1,55 @@
+.background {
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust 'contain' to 'cover' or specific dimensions as needed */
+  background-position: center;
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.background:hover .overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.83);
+}
+
+.background:hover {
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+
+.link {
+  font-size: 25px;
+  color: #4359e6;
+  opacity: 1;
+}
+
+.description {
+  font-style: italic;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.title {
+  line-height: 1.2;
+  text-transform: none;
+}
