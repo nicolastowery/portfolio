@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6ff61089.css",
-    "main.js": "/portfolio/static/js/main.1bbc0743.js",
+    "main.css": "/portfolio/static/css/main.2a26ea7a.css",
+    "main.js": "/portfolio/static/js/main.005e83fb.js",
+    "static/media/bestway-mockup.png": "/portfolio/static/media/bestway-mockup.70562c0c91e69c1fa963.png",
+    "static/media/better-photos.png": "/portfolio/static/media/better-photos.a5dbf8b7bcdb34925669.png",
+    "static/media/social-editor.png": "/portfolio/static/media/social-editor.76da6ed2e9d6b1e0e4c1.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.022296b8fa725b14f101.png",
     "static/media/me.jpg": "/portfolio/static/media/me.699b6f0716599217cc44.jpg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.3133a7bf8937c5b10627.pdf",
     "index.html": "/portfolio/index.html",
-    "main.6ff61089.css.map": "/portfolio/static/css/main.6ff61089.css.map",
-    "main.1bbc0743.js.map": "/portfolio/static/js/main.1bbc0743.js.map"
+    "main.2a26ea7a.css.map": "/portfolio/static/css/main.2a26ea7a.css.map",
+    "main.005e83fb.js.map": "/portfolio/static/js/main.005e83fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ff61089.css",
-    "static/js/main.1bbc0743.js"
+    "static/css/main.2a26ea7a.css",
+    "static/js/main.005e83fb.js"
   ]
 }
