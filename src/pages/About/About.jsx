@@ -21,14 +21,10 @@ function About() {
             specializing in React.js in the Nashville TN area.
           </p>
           <p>
-            Right now I am working at Bestway Ag as a Web Specialist. I get the
-            opportunity to work with the latest eCommerce platforms as well as
-            building websites from the ground up.
-          </p>
-          <p>
-            I have a strong desire to learn more programming lanugages and
-            concepts. When I'm not learning or writing code, I enjoy playing
-            guitar!
+            I have a strong desire to learn more programming languages and
+            concepts. I am currently learning TypeScript. Outside of web
+            technologies, I am wanting to eventually learn React Native, Machine
+            Learning, and Assembly!
           </p>
         </div>
       </div>
