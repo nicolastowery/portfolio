@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2a26ea7a.css",
-    "main.js": "/static/js/main.777e7733.js",
+    "main.js": "/static/js/main.4b4c142e.js",
     "static/media/bestway-mockup.png": "/static/media/bestway-mockup.70562c0c91e69c1fa963.png",
     "static/media/better-photos.png": "/static/media/better-photos.a5dbf8b7bcdb34925669.png",
     "static/media/social-editor.png": "/static/media/social-editor.76da6ed2e9d6b1e0e4c1.png",
@@ -11,10 +11,10 @@
     "static/media/resume.pdf": "/static/media/resume.215851bcd951a8b2c1aa.pdf",
     "index.html": "/index.html",
     "main.2a26ea7a.css.map": "/static/css/main.2a26ea7a.css.map",
-    "main.777e7733.js.map": "/static/js/main.777e7733.js.map"
+    "main.4b4c142e.js.map": "/static/js/main.4b4c142e.js.map"
   },
   "entrypoints": [
     "static/css/main.2a26ea7a.css",
-    "static/js/main.777e7733.js"
+    "static/js/main.4b4c142e.js"
   ]
 }
