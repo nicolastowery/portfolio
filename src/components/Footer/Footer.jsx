@@ -20,7 +20,7 @@ function Footer() {
         <li className={styles.linkContainer}>
           <a
             className={styles.link}
-            href="mailto: nicolastowery@gmail.com"
+            href="mailto: dev.towery@gmail.com"
             aria-label="Email me!"
             alt="Email me!"
           >
