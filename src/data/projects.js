@@ -2,6 +2,7 @@ import bestwayMockup from "../assets/images/bestway-mockup.png";
 import betterPhotos from "../assets/images/better-photos.png";
 import socialEditor from "../assets/images/social-editor.png";
 import portfolio from "../assets/images/portfolio.png";
+import fastReactPizza from "../assets/images/fast-react-pizza.png";
 
 const projects = [
   {
@@ -47,6 +48,16 @@ const projects = [
     repoLink: "#",
     liveLink: "#",
     category: "work",
+  },
+  {
+    id: 6,
+    title: "Fast React Pizza",
+    description:
+      "HTML5, CSS3, JavaScript, React, Redux, React Router, Tailwind",
+    repoLink: "https://github.com/nicolastowery/fast-react-pizza",
+    liveLink: "https://nicolastowery.github.io/fast-react-pizza/",
+    category: "personal",
+    image: fastReactPizza,
   },
 ];
 
