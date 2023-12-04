@@ -56,7 +56,7 @@ const projects = [
     description:
       "HTML5, CSS3, JavaScript, React, Redux, React Router, Tailwind",
     repoLink: "https://github.com/nicolastowery/fast-react-pizza",
-    liveLink: "https://nicolastowery.github.io/fast-react-pizza/",
+    liveLink: "https://fast-react-pizza-towery.vercel.app/",
     category: "personal",
     image: fastReactPizza,
   },
