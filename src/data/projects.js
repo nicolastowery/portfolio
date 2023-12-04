@@ -3,6 +3,7 @@ import betterPhotos from "../assets/images/better-photos.png";
 import socialEditor from "../assets/images/social-editor.png";
 import portfolio from "../assets/images/portfolio.png";
 import fastReactPizza from "../assets/images/fast-react-pizza.png";
+import theWildOasis from "../assets/images/the-wild-oasis.png";
 
 const projects = [
   {
@@ -58,6 +59,15 @@ const projects = [
     liveLink: "https://nicolastowery.github.io/fast-react-pizza/",
     category: "personal",
     image: fastReactPizza,
+  },
+  {
+    id: 7,
+    title: "The Wild Oasis",
+    description: "React, React Query, React Router, Styled Components",
+    repoLink: "https://github.com/nicolastowery/the-wild-oasis",
+    liveLink: "https://the-wild-oasis-towery.vercel.app",
+    category: "personal",
+    image: theWildOasis,
   },
 ];
 
