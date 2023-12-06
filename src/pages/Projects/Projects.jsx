@@ -4,10 +4,10 @@ import Project from "../../components/Project/Project";
 function Projects() {
   return (
     <main className={styles.pageContainer}>
-      <h1>Projects</h1>
+      <h1 className={styles.projectsContainerHeader}>Projects</h1>
       <section className={styles.projectsContainer}>
-        {projects.map((p) => (
-          <Project project={p} key={p.id} />
+        {projects.map((p, i) => (
+          <Project project={p} key={p.id} delay={i} />
         ))}
       </section>
     </main>

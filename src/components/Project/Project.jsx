@@ -1,12 +1,15 @@
 import styles from "./Project.module.css";
 import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
-function Project({ project }) {
+function Project({ project, delay }) {
   const { title, description, repoLink, liveLink, category, image } = project;
   console.log(image);
   return (
     <div
       className={styles.background}
-      style={{ backgroundImage: `url(${image})` }}
+      style={{
+        backgroundImage: `url(${image})`,
+        animationDelay: `${delay * 0.1}s`,
+      }}
     >
       <div className={styles.overlay}>
         <h2 className={styles.title}>{title}</h2>
