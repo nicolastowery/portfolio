@@ -1,33 +1,32 @@
 .background {
   background-color: black;
-  width: 250px;
-  height: 250px;
-  border-radius: 30px;
-
+  width: 419px;
+  height: 237px;
+  border-radius: 2px;
+  overflow: hidden;
   background-repeat: no-repeat;
-  background-size: cover; /* Adjust 'contain' to 'cover' or specific dimensions as needed */
+  background-size: contain;
   background-position: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* border: 1px solid red; */
 }
 
 .overlay {
   opacity: 0;
   transition: opacity 0.2s ease-out;
-  width: 250px;
-  height: 250px;
+  width: 419px;
+  height: 244px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding: 1rem;
   overflow: hidden;
-  border-radius: 30px;
+  /* border-radius: 2px; */
 }
 
 .background:hover .overlay {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.83);
-}
-
-.background:hover {
 }
 
 .links {
@@ -38,7 +37,7 @@
 }
 
 .link {
-  font-size: 25px;
+  font-size: 30px;
   color: #4359e6;
   opacity: 1;
 }
@@ -55,9 +54,16 @@
 }
 
 @media (max-width: 650px) {
+  .background:first-child {
+    background-position: left;
+  }
+
   .background {
     width: 200px;
     height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
   }
 
   .overlay {
@@ -66,8 +72,12 @@
   }
 
   .title {
-    line-height: 1.1;
+    /* line-height: 1.5; */
     font-size: 1.5rem;
+  }
+
+  .link {
+    font-size: 28px;
   }
 }
 
@@ -80,19 +90,20 @@
   .overlay {
     width: 150px;
     height: 150px;
+    padding: 0.5rem;
   }
 
   .title {
-    line-height: 1.1;
-    font-size: 1.2rem;
+    /* line-height: 1.1; */
+    font-size: 1rem;
   }
 
   .description {
-    font-size: 0.8rem;
-    margin-top: 3px;
+    font-size: 0.7rem;
+    margin-top: 10px;
   }
 
   .link {
-    font-size: 22px;
+    font-size: 27px;
   }
 }
