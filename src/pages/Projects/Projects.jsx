@@ -7,7 +7,7 @@ function Projects() {
       <h1 className={styles.projectsContainerHeader}>Projects</h1>
       <section className={styles.projectsContainer}>
         {projects.map((p, i) => (
-          <Project project={p} key={p.id} delay={i} />
+          <Project project={p} key={p.id} delay={i + 1} />
         ))}
       </section>
     </main>

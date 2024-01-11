@@ -4,7 +4,7 @@ import socialEditor from "../assets/images/social-editor.png";
 import portfolio from "../assets/images/portfolio.png";
 import fastReactPizza from "../assets/images/fast-react-pizza.png";
 import theWildOasis from "../assets/images/the-wild-oasis.png";
-
+import constructionCompany from "../assets/images/construction-company.png";
 const projects = [
   {
     id: 1,
@@ -68,6 +68,15 @@ const projects = [
     liveLink: "https://the-wild-oasis-towery.vercel.app",
     category: "personal",
     image: theWildOasis,
+  },
+  {
+    id: 8,
+    title: "Construction Company Mockup",
+    description: "React, TypeScript, CSS, CSS Modules",
+    repoLink: "https://github.com/nicolastowery/construction-company",
+    liveLink: "https://construction-company-six.vercel.app",
+    category: "personal",
+    image: constructionCompany,
   },
 ];
 

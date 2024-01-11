@@ -22,7 +22,7 @@
 }
 
 .projectsContainerHeader {
-  animation: fade-in-blur 1s backwards;
+  animation: fade-in-blur 0.7s backwards;
 }
 
 .pageContainer {
