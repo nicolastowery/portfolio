@@ -78,6 +78,14 @@ const projects = [
     category: "personal",
     image: constructionCompany,
   },
+  {
+    id: 9,
+    title: "Memory Verse App",
+    description: "React, TypeScript, CSS, CSS Modules, Node.js, Express",
+    repoLink: "https://github.com/nicolastowery/memory-verse-app",
+    liveLink: "https://memory-verse-app.vercel.app/",
+    category: "personal",
+  },
 ];
 
 export default projects;
