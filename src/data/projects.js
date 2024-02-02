@@ -5,6 +5,8 @@ import portfolio from "../assets/images/portfolio.png";
 import fastReactPizza from "../assets/images/fast-react-pizza.png";
 import theWildOasis from "../assets/images/the-wild-oasis.png";
 import constructionCompany from "../assets/images/construction-company.png";
+import memoryVerseApp from "../assets/images/memory-verse-app.png";
+
 const projects = [
   {
     id: 1,
@@ -85,6 +87,7 @@ const projects = [
     repoLink: "https://github.com/nicolastowery/memory-verse-app",
     liveLink: "https://memory-verse-app.vercel.app/",
     category: "personal",
+    image: memoryVerseApp,
   },
 ];
 
