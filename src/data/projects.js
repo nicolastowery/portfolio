@@ -83,7 +83,8 @@ const projects = [
   {
     id: 9,
     title: "Memory Verse App",
-    description: "React, TypeScript, CSS, CSS Modules, Node.js, Express",
+    description:
+      "React, TypeScript, CSS, CSS Modules, Styled Components, Node.js, Express",
     repoLink: "https://github.com/nicolastowery/memory-verse-app",
     liveLink: "https://memory-verse-app.vercel.app/",
     category: "personal",
