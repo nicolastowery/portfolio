@@ -1,4 +1,4 @@
-import bestwayMockup from "../assets/images/bestway-mockup.png";
+import krypto from "../assets/images/krypto.png";
 import betterPhotos from "../assets/images/better-photos.png";
 import socialEditor from "../assets/images/social-editor.png";
 import portfolio from "../assets/images/portfolio.png";
@@ -37,12 +37,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "Bestway Mockup",
-    description: "HTML5, CSS3, SASS",
-    repoLink: "https://github.com/nicolastowery/bestway-site-mockup",
-    liveLink: "https://nicolastowery.github.io/bestway-site-mockup",
+    title: "Krypto",
+    description: "HTML5, CSS3, React, Figma",
+    repoLink: "https://github.com/nicolastowery/krypto",
+    liveLink: "https://krypto-chi.vercel.app/",
     category: "work",
-    image: bestwayMockup,
+    image: krypto,
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const projects = [
   {
     id: 8,
     title: "Construction Company Mockup",
-    description: "React, TypeScript, CSS, CSS Modules",
+    description: "React, TypeScript, CSS, CSS Modules, Figma",
     repoLink: "https://github.com/nicolastowery/construction-company",
     liveLink: "https://construction-company-six.vercel.app",
     category: "personal",
