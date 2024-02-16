@@ -22,7 +22,7 @@ function About() {
           </p>
           <p>
             I have a strong desire to learn more programming languages and
-            concepts. I am currently learning TypeScript. Outside of web
+            concepts. I am currently learning Next.js. Outside of web
             technologies, I am wanting to eventually learn React Native, Machine
             Learning, and Assembly!
           </p>

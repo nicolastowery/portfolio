@@ -1,5 +1,6 @@
 const skills = [
   { id: 1, skill: "JavaScript", type: "language" },
+  { id: 1, skill: "TypeScript", type: "language" },
   { id: 2, skill: "HTML5", type: "language" },
   { id: 3, skill: "CSS3", type: "language" },
   { id: 4, skill: "Python", type: "language" },
@@ -18,6 +19,8 @@ const skills = [
   { id: 17, skill: "Magento 1", type: "ecommerce-cms" },
   { id: 18, skill: "BigCommerce", type: "ecommerce-cms" },
   { id: 19, skill: "WordPress", type: "ecommerce-cms" },
+  { id: 20, skill: "Figma", type: "other" },
+  { id: 20, skill: "Linux", type: "other" },
   { id: 20, skill: "Git", type: "other" },
   { id: 21, skill: "GitHub", type: "other" },
   { id: 22, skill: "NPM", type: "other" },
